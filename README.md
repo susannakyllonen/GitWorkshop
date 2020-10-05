@@ -38,7 +38,9 @@ Opastus Gitin käyttöön
 11. Vie kaikki uudet muutokset GitHubiin
 
    -> git commit -am "viesti"
+   
    -> git status 
+   
    -> git push
 
 Kuvitellaan, että joku muukin on mukana samassa projektissa ja haluat saada päivitetyn koodin omalle koneelle.
