@@ -48,7 +48,8 @@ Kuvitellaan, että joku muukin on mukana samassa projektissa ja haluat saada pä
 12. Tee muutoksia kansioon GitHubissa
 
    -> commit viesti muutokseen, mitä teit
-13. Omassa terminaalissa
+
+13. Terminaalissa
 
    -> git pull
    - saadaan "jonkun muun" tekemät muutokset omalle koneelle
