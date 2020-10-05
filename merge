@@ -1,0 +1,20 @@
+Jos useampi muuttaa samaa kansiota, voidaan saada aikaan "merge conflict", jolloin git ei tiedä mitä tehdä.
+
+1. Aiheutetaan merge conflict. Muokataan yhtä ja samaa riviä hello.html kansiossa sekä omassa ympäristössä että GitHubissa
+
+  -> git commit -am "muutos"
+  - omassa ympäristössä
+  
+  -> git commit GitHubissa
+  
+3. Tämän jälkeen terminaalissa
+
+  -> git pull
+  - ja näkyy "Merge conflict in hello.html"
+
+2. Katsotaan omassa editorissa koodiriviä, ratkaistaan mitä halutaan säilyttää ja muokataan se sellaiseksi, kun sen halutaan olevan.
+
+3. Kun ollaan tyytyväisiä
+
+ -> git commit -am "Fix merge conflict"
+ -> git push
