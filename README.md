@@ -75,19 +75,39 @@ Jos useampi muuttaa samaa kansiota, voidaan saada aikaan "merge conflict", jollo
   
   -> git commit GitHubissa
   
-3. Tämän jälkeen terminaalissa
+2. Tämän jälkeen terminaalissa
 
   -> git pull
   - ja näkyy "Merge conflict in hello.html"
 
-2. Katsotaan omassa editorissa koodiriviä, ratkaistaan mitä halutaan säilyttää ja muokataan se sellaiseksi, kun sen halutaan olevan.
+3. Katsotaan omassa editorissa koodiriviä, ratkaistaan mitä halutaan säilyttää ja muokataan se sellaiseksi, kun sen halutaan olevan.
 
-3. Kun ollaan tyytyväisiä
+4. Kun ollaan tyytyväisiä
 
  -> git commit -am "Fix merge conflict"
+ 
  -> git push
    
+   # Muita Git-komentoja
    
+  git log
+  - antaa kaikki tehdyt muutokset kyseisessä repossa
+ 
+  git reset
+  - jos teit muutoksen, mitä ei ollut tarkoitus tehdä ja haluat mennä takaisin edelliseen committiin
+  
+  Lisää komentoja löydät täältä: https://git-scm.com/docs
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
    
    
    
