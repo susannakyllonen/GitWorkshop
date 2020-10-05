@@ -16,6 +16,7 @@ Opastus Gitin käyttöön
    - ls -> uusi kansio näkyy
 7. Luo HTML runko tai muuta sisältöä uuteen kansioon
 8. Terminaalissa
+   
    -> git add <kansion nimi>
    - lisää yhden tietyn kansion GitHubiin
 
