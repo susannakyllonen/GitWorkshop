@@ -26,7 +26,7 @@ Opastus Gitin käyttöön
  7. Luo HTML runko tai muuta sisältöä uuteen kansioon
  8. Terminaalissa
    
-   -> git add <kansion nimi>
+   -> git add -> kansion nimi
    - lisää yhden tietyn kansion GitHubiin
 
    -> git commit -m "viesti"
